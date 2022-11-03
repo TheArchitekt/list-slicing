@@ -49,7 +49,8 @@ def top(input_list):
 
     """
 
-    return []
+    del input_list[-1]
+    return input_list
 
 
 def first_three(input_list):
